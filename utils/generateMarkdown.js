@@ -7,33 +7,33 @@ ${data.description}
 
 ## Table of Contents
 
-[Installation](#installation)
-[Usage](#usage)
-[License](#license)
-[Contributing](#contributing)
-[Tests](#tests)
-[Questions](#questions)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 
 ## Installation
 To install necessary dependencies, run the following command:
-* ${installation}
+* ${data.installation}
 
 ## Usage
-${usage}
+${data.usage}
 
 
 ## License
-Ths project is licensed under the ${license} license.
+Ths project is licensed under the ${data.license} license.
 
 ## Contributing
-${userContribution}
+${data.userContribution}
 
 ## Tests
 To run tests, run the following command:
-* ${tests}
+* ${data.tests}
 
 ## Questions
-If you have any questions about the repo, open an issue or contact me directly at ${userEmail}. You can find more of my work at [${userName}](https://github.com/${userName}).
+If you have any questions about the repo, open an issue or contact me directly at ${data.userEmail}. You can find more of my work at [${data.userName}](https://github.com/${data.userName}).
 `;
 }
 
