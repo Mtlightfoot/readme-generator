@@ -5,6 +5,8 @@ function generateMarkdown(data) {
 ## Description
 ${data.description}
 
+![alt text](https://img.shields.io/badge/License-${data.license}-green)
+
 ## Table of Contents
 
 * [Installation](#installation)
@@ -36,5 +38,7 @@ To run tests, run the following command:
 If you have any questions about the repo, open an issue or contact me directly at ${data.userEmail}. You can find more of my work at [${data.userName}](https://github.com/${data.userName}).
 `;
 }
+
+
 
 module.exports = generateMarkdown;

@@ -45,7 +45,7 @@ const questions = [
         type: "list",
         name: "license",
         message: "What kind of license should your project have?",
-        choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "OSL 3.0", "MS PL", "None"]
+        choices: ["MIT", "APACHE2.0", "GPL3.0", "BSD3", "OSL3.0", "MSPL", "None"]
     },
     {
         type: "input",
@@ -71,6 +71,7 @@ function init() {
     inquirer
         .prompt(questions)
         .then((data) => {
+            let badge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
             writeToFile('README.md', generateMarkdown(data));
         })
         .catch((error) => {
