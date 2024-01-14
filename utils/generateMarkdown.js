@@ -3,7 +3,7 @@ function generateMarkdown(data) {
   return `# ${data.title}
 
 ## Description
-${}
+${data.description}
 
 ## Table of Contents
 
@@ -17,28 +17,23 @@ ${}
 ## Installation
 To install necessary dependencies, run the following command:
 
-```
-${}
-```
+
 
 
 ## Usage
 
 ## License
-Ths project is licensed under the ${} license.
+Ths project is licensed under the  license.
 
 ## Contributing
-${}
+
 
 ## Tests
 To run tests, run the following command:
-```
-${}
-```
+
 
 ## Questions
-If you have any questions about the repo, open an issue or contact me directly at ${}. You can find more of my work at ${}.
-
+If you have any questions about the repo, open an issue or contact me directly at ${userEmail}. You can find more of my work at [${userName}](https://github.com/${userName}).
 `;
 }
 
