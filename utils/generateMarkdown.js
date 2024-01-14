@@ -16,21 +16,21 @@ ${data.description}
 
 ## Installation
 To install necessary dependencies, run the following command:
-
-
-
+* ${installation}
 
 ## Usage
+${usage}
+
 
 ## License
-Ths project is licensed under the  license.
+Ths project is licensed under the ${license} license.
 
 ## Contributing
-
+${userContribution}
 
 ## Tests
 To run tests, run the following command:
-
+* ${tests}
 
 ## Questions
 If you have any questions about the repo, open an issue or contact me directly at ${userEmail}. You can find more of my work at [${userName}](https://github.com/${userName}).
